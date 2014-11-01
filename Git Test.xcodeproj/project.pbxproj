@@ -14,6 +14,7 @@
 		5DB22F4F1A0537AF00FF7081 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB22F4E1A0537AF00FF7081 /* Images.xcassets */; };
 		5DB22F521A0537AF00FF7081 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DB22F501A0537AF00FF7081 /* LaunchScreen.xib */; };
 		5DB22F5E1A0537AF00FF7081 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB22F5D1A0537AF00FF7081 /* Git_TestTests.m */; };
+		5DB22F691A05466300FF7081 /* FMtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB22F681A05466300FF7081 /* FMtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5DB22F571A0537AF00FF7081 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB22F5C1A0537AF00FF7081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DB22F5D1A0537AF00FF7081 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5DB22F671A05466300FF7081 /* FMtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMtest.h; sourceTree = "<group>"; };
+		5DB22F681A05466300FF7081 /* FMtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		5DB22F351A0537AF00FF7081 = {
 			isa = PBXGroup;
 			children = (
+				5DB22F671A05466300FF7081 /* FMtest.h */,
+				5DB22F681A05466300FF7081 /* FMtest.m */,
 				5DB22F401A0537AF00FF7081 /* Git Test */,
 				5DB22F5A1A0537AF00FF7081 /* Git TestTests */,
 				5DB22F3F1A0537AF00FF7081 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				5DB22F4A1A0537AF00FF7081 /* ViewController.m in Sources */,
 				5DB22F471A0537AF00FF7081 /* AppDelegate.m in Sources */,
+				5DB22F691A05466300FF7081 /* FMtest.m in Sources */,
 				5DB22F441A0537AF00FF7081 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
